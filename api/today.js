@@ -1,7 +1,7 @@
 export default function handler(req, res) {
   const payload = {
     meta: {
-      client: "clinica-martinez",
+      client: "CAT",
       range: "today",
       currency: "PEN",
       last_updated: new Date().toISOString()
